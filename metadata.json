@@ -1,0 +1,6 @@
+{
+  "name": "Tug of War Clash",
+  "description": "Intense multiplayer and solo tapping tug-of-war battle with dynamic physics, tournament mode, and customizable arenas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Container Circle / Background -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M24,2 A22,22 0 1,1 23.99,2 Z" />
+
+    <!-- Outer Glow Ring -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="1.5"
+        android:pathData="M24,3 A21,21 0 0,0 24,45" />
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="1.5"
+        android:pathData="M24,3 A21,21 0 0,1 24,45" />
+
+    <!-- Left Puller (Blue Team Character Silhouette) -->
+    <!-- Head -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M11,16 A3.5,3.5 0 1,1 10.99,16 Z" />
+    <!-- Torso leaning back -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M11,19.5 L8,28" />
+    <!-- Arm pulling rope -->
+    <path
+        android:strokeColor="#93C5FD"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M10,22 L16,24" />
+    <!-- Leg bracing back -->
+    <path
+        android:strokeColor="#1D4ED8"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M8,28 L5,36" />
+    <path
+        android:strokeColor="#1D4ED8"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M8,28 L11,36" />
+
+    <!-- Right Puller (Red Team Character Silhouette) -->
+    <!-- Head -->
+    <path
+        android:fillColor="#F87171"
+        android:pathData="M37,16 A3.5,3.5 0 1,1 36.99,16 Z" />
+    <!-- Torso leaning back -->
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M37,19.5 L40,28" />
+    <!-- Arm pulling rope -->
+    <path
+        android:strokeColor="#FCA5A5"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,22 L32,24" />
+    <!-- Leg bracing back -->
+    <path
+        android:strokeColor="#B91C1C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M40,28 L43,36" />
+    <path
+        android:strokeColor="#B91C1C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M40,28 L37,36" />
+
+    <!-- Braided Golden Tension Rope -->
+    <path
+        android:strokeColor="#D97706"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M14,24 L34,24" />
+    <path
+        android:strokeColor="#FDE68A"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M15,24 L33,24" />
+
+    <!-- Center Ribbon Flag (Red) -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M24,24 L21,31 L24,29 L27,31 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23,23 h2 v2 h-2 z" />
+
+    <!-- Clash Energy Sparks -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M24,12 L22,18 L25,18 L23,22 L27,16 L24,16 Z" />
+</vector>

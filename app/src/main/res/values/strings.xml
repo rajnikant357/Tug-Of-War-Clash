@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tug of War Clash</string>
+    <string name="title_two_player">2-Player Duel</string>
+    <string name="title_vs_ai">Solo vs AI</string>
+    <string name="title_tournament">Tournament Mode</string>
+    <string name="title_stats">Match Records</string>
+    <string name="title_settings">Settings</string>
+    <string name="tap_to_pull">TAP FAST!</string>
+    <string name="pull_victory">VICTORY!</string>
+    <string name="pull_defeat">DEFEAT!</string>
+    <string name="ready_set_pull">READY… PULL!</string>
+    <string name="play_again">Play Again</string>
+    <string name="back_to_menu">Main Menu</string>
+</resources>
